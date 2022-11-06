@@ -16,6 +16,6 @@ class Weather {
       `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${this.api_key}`
     )
     const responseData = await response.json()
-    this.getWeather(responseData.coord.lat, responseData.coord.lon)
+    return responseData
   }
 }

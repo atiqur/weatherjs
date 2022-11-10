@@ -21,4 +21,9 @@ class UI {
     this.feelsLike.textContent = `Feels Like: ${weather.main.feels_like} °C`
     this.wind.textContent = `Wind: ${weather.wind.speed}`
   }
+
+  // TODO Display better error message
+  error(message) {
+    this.location.textContent = message
+  }
 }

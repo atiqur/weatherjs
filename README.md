@@ -1,0 +1,1 @@
+This is a web application that displays the current weather of a place by accessing the users location using JavaScript's Geolocation. Users can also change the location if then want. The location is saved in the browser's local storage and loaded directly from it the next time the web app is used.

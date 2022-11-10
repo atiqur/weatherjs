@@ -25,5 +25,11 @@ class UI {
   // TODO Display better error message
   error(message) {
     this.location.textContent = message
+    this.description.textContent = ""
+    this.string.style.display = "none"
+    this.icon.setAttribute("src", "")
+    this.humidity.style.display = "none"
+    this.feelsLike.style.display = "none"
+    this.wind.style.display = "none"
   }
 }
